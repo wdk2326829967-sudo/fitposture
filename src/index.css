@@ -1,0 +1,33 @@
+@import 'tailwindcss';
+
+:root {
+  --muscle-base: #b4624f;
+  --muscle-tendon: #d8d2c8;
+  --accent: #2dd4bf;
+  --tight: #ff7043;
+  --weak: #42a5f5;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family:
+    system-ui,
+    -apple-system,
+    'PingFang SC',
+    'Microsoft YaHei',
+    'Segoe UI',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: #f6f7f9;
+  color: #1f2430;
+}
+
+canvas {
+  touch-action: none;
+}

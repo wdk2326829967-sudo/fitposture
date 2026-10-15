@@ -1,0 +1,19 @@
+node_modules/
+dist/
+deploy/
+.verification/
+tsconfig.tsbuildinfo
+
+# 本地验证脚本产生的临时文件（含数据库快照 / 用户密码哈希）
+.tmp/
+*.local
+.env
+.env.*
+
+# 模型处理中间缓存（与 public/models 重复的原始体积，白白多出 6MB）
+scripts/.cache/
+
+# 部署配置含管理密钥，绝不能进版本库
+.deploy-config.json
+server/data/
+deploy/server/data/

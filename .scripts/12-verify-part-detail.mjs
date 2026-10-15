@@ -1,0 +1,13 @@
+import { chromium } from 'playwright-core';
+const cases = process.argv.slice(2);
+const [g,part,name] = cases.length===3 ? cases : ['chest_pec_major','clavicular','K1-pec-upper'];
+const b = await chromium.launch({ executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe', args:['--use-gl=angle','--use-angle=swiftshader','--enable-unsafe-swiftshader','--js-flags=--max-old-space-size=2048'] });
+const p = await b.newPage({ viewport:{width:1360,height:1000} });
+p.on('pageerror', e=>console.log('[err]',e.message));
+await p.goto(`http://localhost:5173/muscle/${g}/${part}`,{waitUntil:'domcontentloaded'});
+await p.waitForTimeout(7000);
+const h1 = await p.locator('h1').first().textContent().catch(()=>null);
+const chips = await p.locator('button:has-text("酸痛")').count();
+await p.screenshot({path:`E:/work空间/fitposture/.verification/${name}.png`});
+console.log(name,'| h1:',h1,'| 问题按钮:',chips);
+await b.close();

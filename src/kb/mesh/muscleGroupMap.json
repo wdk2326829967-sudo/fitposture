@@ -1,0 +1,1727 @@
+{
+  "generatedAt": "2026-09-10T05:50:45.569Z",
+  "groups": {
+    "chest_pec_major": {
+      "cn": "胸大肌",
+      "region": "chest"
+    },
+    "chest_pec_minor": {
+      "cn": "胸小肌",
+      "region": "chest"
+    },
+    "chest_serratus": {
+      "cn": "前锯肌",
+      "region": "chest"
+    },
+    "shoulder_deltoid": {
+      "cn": "三角肌",
+      "region": "shoulder"
+    },
+    "shoulder_rotator_cuff": {
+      "cn": "肩袖肌群",
+      "region": "shoulder"
+    },
+    "back_trapezius_upper": {
+      "cn": "斜方肌上束",
+      "region": "back"
+    },
+    "back_trapezius_lower": {
+      "cn": "斜方肌中下束",
+      "region": "back"
+    },
+    "back_lat": {
+      "cn": "背阔肌",
+      "region": "back"
+    },
+    "back_rhomboid": {
+      "cn": "菱形肌",
+      "region": "back"
+    },
+    "back_erector": {
+      "cn": "竖脊肌",
+      "region": "back"
+    },
+    "back_ql": {
+      "cn": "腰方肌",
+      "region": "back"
+    },
+    "arm_biceps": {
+      "cn": "肱二头肌",
+      "region": "arm"
+    },
+    "arm_triceps": {
+      "cn": "肱三头肌",
+      "region": "arm"
+    },
+    "arm_forearm_flexor": {
+      "cn": "前臂屈肌群",
+      "region": "arm"
+    },
+    "arm_forearm_extensor": {
+      "cn": "前臂伸肌群",
+      "region": "arm"
+    },
+    "core_rectus": {
+      "cn": "腹直肌",
+      "region": "core"
+    },
+    "core_oblique": {
+      "cn": "腹斜肌",
+      "region": "core"
+    },
+    "core_transverse": {
+      "cn": "腹横肌",
+      "region": "core"
+    },
+    "hip_glute_max": {
+      "cn": "臀大肌",
+      "region": "hip"
+    },
+    "hip_glute_med": {
+      "cn": "臀中肌",
+      "region": "hip"
+    },
+    "hip_iliopsoas": {
+      "cn": "髂腰肌",
+      "region": "hip"
+    },
+    "hip_tfl_itb": {
+      "cn": "阔筋膜张肌/髂胫束",
+      "region": "hip"
+    },
+    "thigh_quads": {
+      "cn": "股四头肌",
+      "region": "thigh"
+    },
+    "thigh_hamstrings": {
+      "cn": "腘绳肌",
+      "region": "thigh"
+    },
+    "thigh_adductor": {
+      "cn": "内收肌群",
+      "region": "thigh"
+    },
+    "calf_gastroc": {
+      "cn": "腓肠肌",
+      "region": "calf"
+    },
+    "calf_soleus": {
+      "cn": "比目鱼肌",
+      "region": "calf"
+    },
+    "calf_tibialis_ant": {
+      "cn": "胫骨前肌",
+      "region": "calf"
+    },
+    "calf_peroneal": {
+      "cn": "腓骨肌群",
+      "region": "calf"
+    },
+    "neck_scm": {
+      "cn": "胸锁乳突肌",
+      "region": "neck"
+    },
+    "neck_levator": {
+      "cn": "肩胛提肌",
+      "region": "neck"
+    },
+    "neck_suboccipital": {
+      "cn": "枕下肌群",
+      "region": "neck"
+    },
+    "neck_deep_flexor": {
+      "cn": "颈深屈肌",
+      "region": "neck"
+    },
+    "foot_tibialis_post": {
+      "cn": "胫骨后肌",
+      "region": "foot"
+    },
+    "foot_intrinsic": {
+      "cn": "足内在肌",
+      "region": "foot"
+    },
+    "tendon": {
+      "cn": "肌腱/腱膜",
+      "region": "other",
+      "hidden": true
+    },
+    "other": {
+      "cn": "其他（手足头面深层小肌）",
+      "region": "other",
+      "hidden": true
+    }
+  },
+  "nodeToGroup": {
+    "abdominal part of left pectoralis major": "chest_pec_major",
+    "abdominal part of right pectoralis major": "chest_pec_major",
+    "abductor digiti minimi of left foot": "other",
+    "abductor digiti minimi of left hand": "other",
+    "abductor digiti minimi of right foot": "other",
+    "abductor digiti minimi of right hand": "other",
+    "acromial part of left deltoid": "shoulder_deltoid",
+    "acromial part of right deltoid": "shoulder_deltoid",
+    "ascending part of left trapezius": "back_trapezius_lower",
+    "ascending part of right trapezius": "back_trapezius_lower",
+    "clavicular part of left deltoid": "shoulder_deltoid",
+    "clavicular part of left pectoralis major": "chest_pec_major",
+    "clavicular part of right deltoid": "shoulder_deltoid",
+    "clavicular part of right pectoralis major": "chest_pec_major",
+    "descending part of left trapezius": "back_trapezius_upper",
+    "descending part of right trapezius": "back_trapezius_upper",
+    "diaphragm": "other",
+    "external anal sphincter": "other",
+    "external anal sphincter (2)": "other",
+    "external anal sphincter (3)": "other",
+    "external intercostal muscle": "other",
+    "first lumbrical of left foot": "foot_intrinsic",
+    "first lumbrical of right foot": "foot_intrinsic",
+    "first plantar interosseous of left foot": "other",
+    "first plantar interosseous of right foot": "other",
+    "flexor digiti minimi brevis of left foot": "other",
+    "flexor digiti minimi brevis of left hand": "other",
+    "flexor digiti minimi brevis of right foot": "other",
+    "flexor digiti minimi brevis of right hand": "other",
+    "flexor retinaculum of left wrist": "other",
+    "flexor retinaculum of right wrist": "other",
+    "fourth lumbrical of left foot": "foot_intrinsic",
+    "fourth lumbrical of right foot": "foot_intrinsic",
+    "humeral head of left flexor carpi ulnaris": "arm_forearm_flexor",
+    "humeral head of left pronator teres": "arm_forearm_flexor",
+    "humeral head of right flexor carpi ulnaris": "arm_forearm_flexor",
+    "humeral head of right pronator teres": "arm_forearm_flexor",
+    "inferior oblique part of left longus colli": "neck_deep_flexor",
+    "innermost intercostal muscle": "other",
+    "internal intercostal muscle": "other",
+    "interosseous membrane of left forearm": "tendon",
+    "interosseous membrane of left leg": "tendon",
+    "interosseous membrane of right forearm": "tendon",
+    "interosseous membrane of right leg": "tendon",
+    "lateral head of left flexor hallucis brevis": "foot_intrinsic",
+    "lateral head of left gastrocnemius": "calf_gastroc",
+    "lateral head of left triceps brachii": "arm_triceps",
+    "lateral head of right flexor hallucis brevis": "foot_intrinsic",
+    "lateral head of right gastrocnemius": "calf_gastroc",
+    "lateral head of right triceps brachii": "arm_triceps",
+    "lateral lumbar intertransversarius": "other",
+    "left abductor hallucis": "foot_intrinsic",
+    "left abductor pollicis brevis": "other",
+    "left abductor pollicis longus": "arm_forearm_extensor",
+    "left adductor brevis": "thigh_adductor",
+    "left adductor longus": "thigh_adductor",
+    "left adductor magnus": "thigh_adductor",
+    "left adductor minimus": "thigh_adductor",
+    "left anconeus": "arm_forearm_extensor",
+    "left anterior layer of thoracolumbar fascia": "tendon",
+    "left arytenoid cartilage": "other",
+    "left brachialis": "arm_biceps",
+    "left brachioradialis": "arm_forearm_extensor",
+    "left calcaneal tendon": "tendon",
+    "left coccygeus": "other",
+    "left coccygeus (2)": "other",
+    "left coracobrachialis": "arm_biceps",
+    "left corrugator supercilii": "other",
+    "left deep part of masseter": "other",
+    "left depressor anguli oris": "other",
+    "left depressor labii inferioris": "other",
+    "left digastric": "other",
+    "left digastric (2)": "other",
+    "left digastric (3)": "other",
+    "left extensor carpi radialis brevis": "arm_forearm_extensor",
+    "left extensor carpi radialis longus": "arm_forearm_extensor",
+    "left extensor carpi ulnaris": "arm_forearm_extensor",
+    "left extensor carpi ulnaris (2)": "arm_forearm_extensor",
+    "left extensor digiti minimi": "other",
+    "left extensor digitorum": "arm_forearm_extensor",
+    "left extensor digitorum longus": "arm_forearm_extensor",
+    "left extensor hallucis brevis": "other",
+    "left extensor hallucis longus": "other",
+    "left extensor indicis": "other",
+    "left extensor pollicis brevis": "arm_forearm_extensor",
+    "left extensor pollicis longus": "arm_forearm_extensor",
+    "left external oblique": "core_oblique",
+    "left fibularis brevis": "calf_peroneal",
+    "left fibularis longus": "calf_peroneal",
+    "left fibularis tertius": "calf_peroneal",
+    "left flexor accessorius": "other",
+    "left flexor carpi radialis": "arm_forearm_flexor",
+    "left flexor digitorum brevis": "foot_intrinsic",
+    "left flexor digitorum longus": "other",
+    "left flexor digitorum profundus": "arm_forearm_flexor",
+    "left flexor digitorum superficialis": "arm_forearm_flexor",
+    "left flexor digitorum superficialis (2)": "arm_forearm_flexor",
+    "left flexor hallucis longus": "foot_intrinsic",
+    "left flexor pollicis brevis": "other",
+    "left flexor pollicis longus": "arm_forearm_flexor",
+    "left frontalis": "other",
+    "left gemellus inferior": "hip_glute_med",
+    "left gemellus superior": "hip_glute_med",
+    "left geniohyoid": "other",
+    "left gluteus maximus": "hip_glute_max",
+    "left gluteus medius": "hip_glute_med",
+    "left gluteus minimus": "hip_glute_med",
+    "left gracilis": "thigh_adductor",
+    "left iliacus": "hip_iliopsoas",
+    "left iliococcygeus": "other",
+    "left iliococcygeus (2)": "other",
+    "left iliocostalis cervicis": "back_erector",
+    "left iliocostalis lumborum": "back_erector",
+    "left iliocostalis thoracis": "back_erector",
+    "left iliotibial tract": "hip_tfl_itb",
+    "left inferior head of lateral pterygoid": "other",
+    "left inferior oblique": "other",
+    "left inferior rectus": "other",
+    "left infraspinatus muscle": "shoulder_rotator_cuff",
+    "left internal oblique": "core_oblique",
+    "left interspinalis thoracis": "back_erector",
+    "left lateral crico-arytenoid": "other",
+    "left lateral rectus": "other",
+    "left latissimus dorsi": "back_lat",
+    "left levator labii superioris": "other",
+    "left levator palpebrae superioris": "other",
+    "left levator scapulae": "neck_levator",
+    "left levator veli palatini": "other",
+    "left long plantar ligament": "tendon",
+    "left longissimus capitis": "neck_deep_flexor",
+    "left longissimus cervicis": "back_erector",
+    "left longissimus thoracis": "back_erector",
+    "left longus capitis": "neck_deep_flexor",
+    "left medial pterygoid": "other",
+    "left medial rectus": "other",
+    "left mentalis": "other",
+    "left middle layer of thoracolumbar fascia": "tendon",
+    "left multifidus cervicis": "back_erector",
+    "left multifidus lumborum": "back_erector",
+    "left multifidus thoracis": "back_erector",
+    "left mylohyoid": "other",
+    "left nasalis": "other",
+    "left oblique arytenoid": "other",
+    "left obturator externus": "hip_glute_med",
+    "left obturator internus": "hip_glute_med",
+    "left omohyoid": "other",
+    "left opponens pollicis": "other",
+    "left orbicularis oris": "other",
+    "left orbital part of orbicularis oculi": "other",
+    "left palmaris longus": "arm_forearm_flexor",
+    "left palpebral part of orbicularis oculi": "other",
+    "left pectineus": "thigh_adductor",
+    "left pectoralis minor": "chest_pec_minor",
+    "left piriformis": "hip_glute_med",
+    "left plantaris": "other",
+    "left platysma": "other",
+    "left popliteus": "other",
+    "left posterior crico-arytenoid": "other",
+    "left posterior layer of thoracolumbar fascia": "tendon",
+    "left procerus": "other",
+    "left pronator quadratus": "arm_forearm_flexor",
+    "left psoas major": "hip_iliopsoas",
+    "left pubococcygeus": "other",
+    "left pubococcygeus (2)": "other",
+    "left puborectalis": "other",
+    "left puborectalis (2)": "other",
+    "left quadratus femoris": "hip_glute_med",
+    "left quadratus lumborum": "back_ql",
+    "left rectus abdominis": "core_rectus",
+    "left rectus capitis anterior": "other",
+    "left rectus capitis lateralis": "neck_suboccipital",
+    "left rectus capitis posterior major": "neck_suboccipital",
+    "left rectus capitis posterior minor": "neck_suboccipital",
+    "left rectus femoris": "thigh_quads",
+    "left rhomboid major": "back_rhomboid",
+    "left rhomboid minor": "back_rhomboid",
+    "left risorius": "other",
+    "left rotatores": "back_erector",
+    "left sartorius": "other",
+    "left scalenus anterior": "other",
+    "left scalenus medius": "other",
+    "left scalenus posterior": "other",
+    "left semimembranosus": "thigh_hamstrings",
+    "left semispinalis capitis": "neck_deep_flexor",
+    "left semispinalis cervicis": "neck_deep_flexor",
+    "left semispinalis thoracis": "back_erector",
+    "left semitendinosus": "thigh_hamstrings",
+    "left serratus anterior": "chest_serratus",
+    "left serratus posterior inferior": "other",
+    "left serratus posterior superior": "other",
+    "left soleus": "calf_soleus",
+    "left spinalis thoracis": "back_erector",
+    "left splenius capitis": "neck_deep_flexor",
+    "left splenius cervicis": "neck_deep_flexor",
+    "left sternocleidomastoid": "neck_scm",
+    "left sternohyoid": "other",
+    "left sternothyroid": "other",
+    "left stylohyoid": "other",
+    "left subclavius": "chest_pec_minor",
+    "left subscapularis": "shoulder_rotator_cuff",
+    "left superficial part of masseter": "other",
+    "left superior head of lateral pterygoid": "other",
+    "left superior oblique": "other",
+    "left superior rectus": "other",
+    "left supinator": "arm_forearm_extensor",
+    "left supraspinatus": "shoulder_rotator_cuff",
+    "left temporalis": "other",
+    "left tensor fasciae latae": "hip_tfl_itb",
+    "left tensor veli palatini": "other",
+    "left teres major": "shoulder_rotator_cuff",
+    "left teres minor": "shoulder_rotator_cuff",
+    "left thyro-arytenoid": "other",
+    "left thyro-arytenoid (2)": "other",
+    "left thyrohyoid": "other",
+    "left tibialis anterior": "calf_tibialis_ant",
+    "left tibialis posterior": "foot_tibialis_post",
+    "left transversus abdominis": "core_transverse",
+    "left transversus thoracis": "other",
+    "left vastus intermedius": "thigh_quads",
+    "left vastus lateralis": "thigh_quads",
+    "left vastus medialis": "thigh_quads",
+    "left zygomaticus major": "other",
+    "left zygomaticus minor": "other",
+    "long head of left biceps brachii": "arm_biceps",
+    "long head of left biceps femoris": "thigh_hamstrings",
+    "long head of left triceps brachii": "arm_triceps",
+    "long head of right biceps brachii": "arm_biceps",
+    "long head of right biceps femoris": "thigh_hamstrings",
+    "long head of right triceps brachii": "arm_triceps",
+    "medial head of left flexor hallucis brevis": "foot_intrinsic",
+    "medial head of left gastrocnemius": "calf_gastroc",
+    "medial head of left triceps brachii": "arm_triceps",
+    "medial head of right flexor hallucis brevis": "foot_intrinsic",
+    "medial head of right gastrocnemius": "calf_gastroc",
+    "medial head of right triceps brachii": "arm_triceps",
+    "medial lumbar intertransversarius": "other",
+    "median cricothyroid ligament": "tendon",
+    "oblique head of left adductor hallucis": "other",
+    "oblique head of left adductor pollicis": "other",
+    "oblique head of right adductor hallucis": "other",
+    "oblique head of right adductor pollicis": "other",
+    "oblique part of left cricothyroid": "other",
+    "oblique part of right cricothyroid": "other",
+    "opponens digiti minimi of left foot": "other",
+    "opponens digiti minimi of left hand": "other",
+    "opponens digiti minimi of right foot": "other",
+    "opponens digiti minimi of right hand": "other",
+    "right abductor hallucis": "foot_intrinsic",
+    "right abductor pollicis brevis": "other",
+    "right abductor pollicis longus": "arm_forearm_extensor",
+    "right adductor brevis": "thigh_adductor",
+    "right adductor longus": "thigh_adductor",
+    "right adductor magnus": "thigh_adductor",
+    "right adductor minimus": "thigh_adductor",
+    "right anconeus": "arm_forearm_extensor",
+    "right anterior layer of thoracolumbar fascia": "tendon",
+    "right arytenoid cartilage": "other",
+    "right brachialis": "arm_biceps",
+    "right brachioradialis": "arm_forearm_extensor",
+    "right calcaneal tendon": "tendon",
+    "right coccygeus": "other",
+    "right coracobrachialis": "arm_biceps",
+    "right corrugator supercilii": "other",
+    "right deep part of masseter": "other",
+    "right depressor anguli oris": "other",
+    "right depressor labii inferioris": "other",
+    "right digastric": "other",
+    "right digastric (2)": "other",
+    "right extensor carpi radialis brevis": "arm_forearm_extensor",
+    "right extensor carpi radialis longus": "arm_forearm_extensor",
+    "right extensor carpi ulnaris": "arm_forearm_extensor",
+    "right extensor carpi ulnaris (2)": "arm_forearm_extensor",
+    "right extensor digiti minimi": "other",
+    "right extensor digitorum": "arm_forearm_extensor",
+    "right extensor digitorum longus": "arm_forearm_extensor",
+    "right extensor hallucis brevis": "other",
+    "right extensor hallucis longus": "other",
+    "right extensor indicis": "other",
+    "right extensor pollicis brevis": "arm_forearm_extensor",
+    "right extensor pollicis longus": "arm_forearm_extensor",
+    "right external oblique": "core_oblique",
+    "right fibularis brevis": "calf_peroneal",
+    "right fibularis longus": "calf_peroneal",
+    "right fibularis tertius": "calf_peroneal",
+    "right flexor accessorius": "other",
+    "right flexor carpi radialis": "arm_forearm_flexor",
+    "right flexor digitorum brevis": "foot_intrinsic",
+    "right flexor digitorum longus": "other",
+    "right flexor digitorum profundus": "arm_forearm_flexor",
+    "right flexor digitorum superficialis": "arm_forearm_flexor",
+    "right flexor digitorum superficialis (2)": "arm_forearm_flexor",
+    "right flexor hallucis longus": "foot_intrinsic",
+    "right flexor pollicis brevis": "other",
+    "right flexor pollicis longus": "arm_forearm_flexor",
+    "right frontalis": "other",
+    "right gemellus inferior": "hip_glute_med",
+    "right gemellus superior": "hip_glute_med",
+    "right geniohyoid": "other",
+    "right gluteus maximus": "hip_glute_max",
+    "right gluteus medius": "hip_glute_med",
+    "right gluteus minimus": "hip_glute_med",
+    "right gracilis": "thigh_adductor",
+    "right iliacus": "hip_iliopsoas",
+    "right iliococcygeus": "other",
+    "right iliocostalis cervicis": "back_erector",
+    "right iliocostalis lumborum": "back_erector",
+    "right iliocostalis thoracis": "back_erector",
+    "right iliotibial tract": "hip_tfl_itb",
+    "right inferior head of lateral pterygoid": "other",
+    "right inferior oblique": "other",
+    "right inferior rectus": "other",
+    "right infraspinatus muscle": "shoulder_rotator_cuff",
+    "right intermediate tendon": "tendon",
+    "right internal oblique": "core_oblique",
+    "right interspinalis thoracis": "back_erector",
+    "right lateral crico-arytenoid": "other",
+    "right lateral rectus": "other",
+    "right latissimus dorsi": "back_lat",
+    "right levator labii superioris": "other",
+    "right levator palpebrae superioris": "other",
+    "right levator scapulae": "neck_levator",
+    "right levator veli palatini": "other",
+    "right long plantar ligament": "tendon",
+    "right longissimus capitis": "neck_deep_flexor",
+    "right longissimus cervicis": "back_erector",
+    "right longissimus thoracis": "back_erector",
+    "right longus capitis": "neck_deep_flexor",
+    "right medial pterygoid": "other",
+    "right medial rectus": "other",
+    "right mentalis": "other",
+    "right middle layer of thoracolumbar fascia": "tendon",
+    "right multifidus cervicis": "back_erector",
+    "right multifidus lumborum": "back_erector",
+    "right multifidus thoracis": "back_erector",
+    "right mylohyoid": "other",
+    "right nasalis": "other",
+    "right oblique arytenoid": "other",
+    "right obturator externus": "hip_glute_med",
+    "right obturator internus": "hip_glute_med",
+    "right omohyoid": "other",
+    "right opponens pollicis": "other",
+    "right orbicularis oris": "other",
+    "right orbital part of orbicularis oculi": "other",
+    "right palmaris longus": "arm_forearm_flexor",
+    "right palpebral part of orbicularis oculi": "other",
+    "right pectineus": "thigh_adductor",
+    "right pectoralis minor": "chest_pec_minor",
+    "right piriformis": "hip_glute_med",
+    "right plantaris": "other",
+    "right platysma": "other",
+    "right popliteus": "other",
+    "right posterior crico-arytenoid": "other",
+    "right posterior layer of thoracolumbar fascia": "tendon",
+    "right procerus": "other",
+    "right pronator quadratus": "arm_forearm_flexor",
+    "right psoas major": "hip_iliopsoas",
+    "right pubococcygeus": "other",
+    "right puborectalis": "other",
+    "right quadratus femoris": "hip_glute_med",
+    "right quadratus lumborum": "back_ql",
+    "right rectus abdominis": "core_rectus",
+    "right rectus capitis anterior": "other",
+    "right rectus capitis lateralis": "neck_suboccipital",
+    "right rectus capitis posterior major": "neck_suboccipital",
+    "right rectus capitis posterior minor": "neck_suboccipital",
+    "right rectus femoris": "thigh_quads",
+    "right rhomboid major": "back_rhomboid",
+    "right rhomboid minor": "back_rhomboid",
+    "right risorius": "other",
+    "right rotatores": "back_erector",
+    "right sartorius": "other",
+    "right scalenus anterior": "other",
+    "right scalenus medius": "other",
+    "right scalenus posterior": "other",
+    "right semimembranosus": "thigh_hamstrings",
+    "right semispinalis capitis": "neck_deep_flexor",
+    "right semispinalis cervicis": "neck_deep_flexor",
+    "right semispinalis thoracis": "back_erector",
+    "right semitendinosus": "thigh_hamstrings",
+    "right serratus anterior": "chest_serratus",
+    "right serratus posterior inferior": "other",
+    "right serratus posterior superior": "other",
+    "right soleus": "calf_soleus",
+    "right spinalis thoracis": "back_erector",
+    "right splenius capitis": "neck_deep_flexor",
+    "right splenius cervicis": "neck_deep_flexor",
+    "right sternocleidomastoid": "neck_scm",
+    "right sternohyoid": "other",
+    "right sternothyroid": "other",
+    "right stylohyoid": "other",
+    "right subclavius": "chest_pec_minor",
+    "right subscapularis": "shoulder_rotator_cuff",
+    "right superficial part of masseter": "other",
+    "right superior head of lateral pterygoid": "other",
+    "right superior oblique": "other",
+    "right superior rectus": "other",
+    "right supinator": "arm_forearm_extensor",
+    "right supraspinatus": "shoulder_rotator_cuff",
+    "right temporalis": "other",
+    "right tensor fasciae latae": "hip_tfl_itb",
+    "right tensor veli palatini": "other",
+    "right teres major": "shoulder_rotator_cuff",
+    "right teres minor": "shoulder_rotator_cuff",
+    "right thyro-arytenoid": "other",
+    "right thyro-arytenoid (2)": "other",
+    "right thyrohyoid": "other",
+    "right tibialis anterior": "calf_tibialis_ant",
+    "right tibialis posterior": "foot_tibialis_post",
+    "right transversus abdominis": "core_transverse",
+    "right transversus thoracis": "other",
+    "right vastus intermedius": "thigh_quads",
+    "right vastus lateralis": "thigh_quads",
+    "right vastus medialis": "thigh_quads",
+    "right zygomaticus major": "other",
+    "right zygomaticus minor": "other",
+    "second lumbrical of left foot": "foot_intrinsic",
+    "second lumbrical of right foot": "foot_intrinsic",
+    "second plantar interosseous of left foot": "other",
+    "second plantar interosseous of right foot": "other",
+    "set of anterior cervical intertransversarii": "back_erector",
+    "set of dorsal interossei of left hand": "foot_intrinsic",
+    "set of dorsal interossei of right hand": "foot_intrinsic",
+    "set of interspinales cervicis": "back_erector",
+    "set of interspinales lumborum": "back_erector",
+    "set of left levatores costarum breves": "other",
+    "set of left levatores costarum longi": "other",
+    "set of lumbricals of left hand": "foot_intrinsic",
+    "set of lumbricals of right hand": "foot_intrinsic",
+    "set of palmar interossei of left hand": "foot_intrinsic",
+    "set of palmar interossei of right hand": "foot_intrinsic",
+    "set of posterior cervical intertransversarii": "back_erector",
+    "set of right levatores costarum breves": "other",
+    "set of right levatores costarum longi": "other",
+    "short head of left biceps brachii": "arm_biceps",
+    "short head of left biceps femoris": "thigh_hamstrings",
+    "short head of right biceps brachii": "arm_biceps",
+    "short head of right biceps femoris": "thigh_hamstrings",
+    "spinal part of left deltoid": "shoulder_deltoid",
+    "spinal part of right deltoid": "shoulder_deltoid",
+    "spinalis": "back_erector",
+    "sternocostal part of left pectoralis major": "chest_pec_major",
+    "sternocostal part of right pectoralis major": "chest_pec_major",
+    "straight part of left cricothyroid": "other",
+    "straight part of right cricothyroid": "other",
+    "superficial head of left flexor pollicis brevis": "other",
+    "superficial head of right flexor pollicis brevis": "other",
+    "superior oblique part of left longus colli": "neck_deep_flexor",
+    "tendinous arch of levator ani": "other",
+    "tendinous arch of levator ani (2)": "other",
+    "tendinous arch of levator ani (3)": "other",
+    "tendon of right levator palpebrae superioris": "tendon",
+    "third lumbrical of left foot": "foot_intrinsic",
+    "third lumbrical of right foot": "foot_intrinsic",
+    "third plantar interosseous of left foot": "other",
+    "third plantar interosseous of right foot": "other",
+    "transverse arytenoid": "other",
+    "transverse head of left adductor hallucis": "other",
+    "transverse head of left adductor pollicis": "other",
+    "transverse head of right adductor hallucis": "other",
+    "transverse head of right adductor pollicis": "other",
+    "transverse part of left trapezius": "back_trapezius_lower",
+    "transverse part of right trapezius": "back_trapezius_lower",
+    "ulnar head of left flexor carpi ulnaris": "arm_forearm_flexor",
+    "ulnar head of left pronator teres": "arm_forearm_flexor",
+    "ulnar head of right flexor carpi ulnaris": "arm_forearm_flexor",
+    "ulnar head of right pronator teres": "arm_forearm_flexor",
+    "vertical intermediate part of left longus colli": "neck_deep_flexor"
+  },
+  "byGroup": {
+    "chest_pec_major": {
+      "left": [
+        "abdominal part of left pectoralis major",
+        "clavicular part of left pectoralis major",
+        "sternocostal part of left pectoralis major"
+      ],
+      "right": [
+        "abdominal part of right pectoralis major",
+        "clavicular part of right pectoralis major",
+        "sternocostal part of right pectoralis major"
+      ],
+      "center": []
+    },
+    "chest_pec_minor": {
+      "left": [
+        "left pectoralis minor",
+        "left subclavius"
+      ],
+      "right": [
+        "right pectoralis minor",
+        "right subclavius"
+      ],
+      "center": []
+    },
+    "chest_serratus": {
+      "left": [
+        "left serratus anterior"
+      ],
+      "right": [
+        "right serratus anterior"
+      ],
+      "center": []
+    },
+    "shoulder_deltoid": {
+      "left": [
+        "acromial part of left deltoid",
+        "clavicular part of left deltoid",
+        "spinal part of left deltoid"
+      ],
+      "right": [
+        "acromial part of right deltoid",
+        "clavicular part of right deltoid",
+        "spinal part of right deltoid"
+      ],
+      "center": []
+    },
+    "shoulder_rotator_cuff": {
+      "left": [
+        "left infraspinatus muscle",
+        "left subscapularis",
+        "left supraspinatus",
+        "left teres major",
+        "left teres minor"
+      ],
+      "right": [
+        "right infraspinatus muscle",
+        "right subscapularis",
+        "right supraspinatus",
+        "right teres major",
+        "right teres minor"
+      ],
+      "center": []
+    },
+    "back_trapezius_upper": {
+      "left": [
+        "descending part of left trapezius"
+      ],
+      "right": [
+        "descending part of right trapezius"
+      ],
+      "center": []
+    },
+    "back_trapezius_lower": {
+      "left": [
+        "ascending part of left trapezius",
+        "transverse part of left trapezius"
+      ],
+      "right": [
+        "ascending part of right trapezius",
+        "transverse part of right trapezius"
+      ],
+      "center": []
+    },
+    "back_lat": {
+      "left": [
+        "left latissimus dorsi"
+      ],
+      "right": [
+        "right latissimus dorsi"
+      ],
+      "center": []
+    },
+    "back_rhomboid": {
+      "left": [
+        "left rhomboid major",
+        "left rhomboid minor"
+      ],
+      "right": [
+        "right rhomboid major",
+        "right rhomboid minor"
+      ],
+      "center": []
+    },
+    "back_erector": {
+      "left": [
+        "left iliocostalis cervicis",
+        "left iliocostalis lumborum",
+        "left iliocostalis thoracis",
+        "left interspinalis thoracis",
+        "left longissimus cervicis",
+        "left longissimus thoracis",
+        "left multifidus cervicis",
+        "left multifidus lumborum",
+        "left multifidus thoracis",
+        "left rotatores",
+        "left semispinalis thoracis",
+        "left spinalis thoracis"
+      ],
+      "right": [
+        "right iliocostalis cervicis",
+        "right iliocostalis lumborum",
+        "right iliocostalis thoracis",
+        "right interspinalis thoracis",
+        "right longissimus cervicis",
+        "right longissimus thoracis",
+        "right multifidus cervicis",
+        "right multifidus lumborum",
+        "right multifidus thoracis",
+        "right rotatores",
+        "right semispinalis thoracis",
+        "right spinalis thoracis"
+      ],
+      "center": [
+        "set of anterior cervical intertransversarii",
+        "set of interspinales cervicis",
+        "set of interspinales lumborum",
+        "set of posterior cervical intertransversarii",
+        "spinalis"
+      ]
+    },
+    "back_ql": {
+      "left": [
+        "left quadratus lumborum"
+      ],
+      "right": [
+        "right quadratus lumborum"
+      ],
+      "center": []
+    },
+    "arm_biceps": {
+      "left": [
+        "left brachialis",
+        "left coracobrachialis",
+        "long head of left biceps brachii",
+        "short head of left biceps brachii"
+      ],
+      "right": [
+        "long head of right biceps brachii",
+        "right brachialis",
+        "right coracobrachialis",
+        "short head of right biceps brachii"
+      ],
+      "center": []
+    },
+    "arm_triceps": {
+      "left": [
+        "lateral head of left triceps brachii",
+        "long head of left triceps brachii",
+        "medial head of left triceps brachii"
+      ],
+      "right": [
+        "lateral head of right triceps brachii",
+        "long head of right triceps brachii",
+        "medial head of right triceps brachii"
+      ],
+      "center": []
+    },
+    "arm_forearm_flexor": {
+      "left": [
+        "humeral head of left flexor carpi ulnaris",
+        "humeral head of left pronator teres",
+        "left flexor carpi radialis",
+        "left flexor digitorum profundus",
+        "left flexor digitorum superficialis",
+        "left flexor digitorum superficialis (2)",
+        "left flexor pollicis longus",
+        "left palmaris longus",
+        "left pronator quadratus",
+        "ulnar head of left flexor carpi ulnaris",
+        "ulnar head of left pronator teres"
+      ],
+      "right": [
+        "humeral head of right flexor carpi ulnaris",
+        "humeral head of right pronator teres",
+        "right flexor carpi radialis",
+        "right flexor digitorum profundus",
+        "right flexor digitorum superficialis",
+        "right flexor digitorum superficialis (2)",
+        "right flexor pollicis longus",
+        "right palmaris longus",
+        "right pronator quadratus",
+        "ulnar head of right flexor carpi ulnaris",
+        "ulnar head of right pronator teres"
+      ],
+      "center": []
+    },
+    "arm_forearm_extensor": {
+      "left": [
+        "left abductor pollicis longus",
+        "left anconeus",
+        "left brachioradialis",
+        "left extensor carpi radialis brevis",
+        "left extensor carpi radialis longus",
+        "left extensor carpi ulnaris",
+        "left extensor carpi ulnaris (2)",
+        "left extensor digitorum",
+        "left extensor digitorum longus",
+        "left extensor pollicis brevis",
+        "left extensor pollicis longus",
+        "left supinator"
+      ],
+      "right": [
+        "right abductor pollicis longus",
+        "right anconeus",
+        "right brachioradialis",
+        "right extensor carpi radialis brevis",
+        "right extensor carpi radialis longus",
+        "right extensor carpi ulnaris",
+        "right extensor carpi ulnaris (2)",
+        "right extensor digitorum",
+        "right extensor digitorum longus",
+        "right extensor pollicis brevis",
+        "right extensor pollicis longus",
+        "right supinator"
+      ],
+      "center": []
+    },
+    "core_rectus": {
+      "left": [
+        "left rectus abdominis"
+      ],
+      "right": [
+        "right rectus abdominis"
+      ],
+      "center": []
+    },
+    "core_oblique": {
+      "left": [
+        "left external oblique",
+        "left internal oblique"
+      ],
+      "right": [
+        "right external oblique",
+        "right internal oblique"
+      ],
+      "center": []
+    },
+    "core_transverse": {
+      "left": [
+        "left transversus abdominis"
+      ],
+      "right": [
+        "right transversus abdominis"
+      ],
+      "center": []
+    },
+    "hip_glute_max": {
+      "left": [
+        "left gluteus maximus"
+      ],
+      "right": [
+        "right gluteus maximus"
+      ],
+      "center": []
+    },
+    "hip_glute_med": {
+      "left": [
+        "left gemellus inferior",
+        "left gemellus superior",
+        "left gluteus medius",
+        "left gluteus minimus",
+        "left obturator externus",
+        "left obturator internus",
+        "left piriformis",
+        "left quadratus femoris"
+      ],
+      "right": [
+        "right gemellus inferior",
+        "right gemellus superior",
+        "right gluteus medius",
+        "right gluteus minimus",
+        "right obturator externus",
+        "right obturator internus",
+        "right piriformis",
+        "right quadratus femoris"
+      ],
+      "center": []
+    },
+    "hip_iliopsoas": {
+      "left": [
+        "left iliacus",
+        "left psoas major"
+      ],
+      "right": [
+        "right iliacus",
+        "right psoas major"
+      ],
+      "center": []
+    },
+    "hip_tfl_itb": {
+      "left": [
+        "left iliotibial tract",
+        "left tensor fasciae latae"
+      ],
+      "right": [
+        "right iliotibial tract",
+        "right tensor fasciae latae"
+      ],
+      "center": []
+    },
+    "thigh_quads": {
+      "left": [
+        "left rectus femoris",
+        "left vastus intermedius",
+        "left vastus lateralis",
+        "left vastus medialis"
+      ],
+      "right": [
+        "right rectus femoris",
+        "right vastus intermedius",
+        "right vastus lateralis",
+        "right vastus medialis"
+      ],
+      "center": []
+    },
+    "thigh_hamstrings": {
+      "left": [
+        "left semimembranosus",
+        "left semitendinosus",
+        "long head of left biceps femoris",
+        "short head of left biceps femoris"
+      ],
+      "right": [
+        "long head of right biceps femoris",
+        "right semimembranosus",
+        "right semitendinosus",
+        "short head of right biceps femoris"
+      ],
+      "center": []
+    },
+    "thigh_adductor": {
+      "left": [
+        "left adductor brevis",
+        "left adductor longus",
+        "left adductor magnus",
+        "left adductor minimus",
+        "left gracilis",
+        "left pectineus"
+      ],
+      "right": [
+        "right adductor brevis",
+        "right adductor longus",
+        "right adductor magnus",
+        "right adductor minimus",
+        "right gracilis",
+        "right pectineus"
+      ],
+      "center": []
+    },
+    "calf_gastroc": {
+      "left": [
+        "lateral head of left gastrocnemius",
+        "medial head of left gastrocnemius"
+      ],
+      "right": [
+        "lateral head of right gastrocnemius",
+        "medial head of right gastrocnemius"
+      ],
+      "center": []
+    },
+    "calf_soleus": {
+      "left": [
+        "left soleus"
+      ],
+      "right": [
+        "right soleus"
+      ],
+      "center": []
+    },
+    "calf_tibialis_ant": {
+      "left": [
+        "left tibialis anterior"
+      ],
+      "right": [
+        "right tibialis anterior"
+      ],
+      "center": []
+    },
+    "calf_peroneal": {
+      "left": [
+        "left fibularis brevis",
+        "left fibularis longus",
+        "left fibularis tertius"
+      ],
+      "right": [
+        "right fibularis brevis",
+        "right fibularis longus",
+        "right fibularis tertius"
+      ],
+      "center": []
+    },
+    "neck_scm": {
+      "left": [
+        "left sternocleidomastoid"
+      ],
+      "right": [
+        "right sternocleidomastoid"
+      ],
+      "center": []
+    },
+    "neck_levator": {
+      "left": [
+        "left levator scapulae"
+      ],
+      "right": [
+        "right levator scapulae"
+      ],
+      "center": []
+    },
+    "neck_suboccipital": {
+      "left": [
+        "left rectus capitis lateralis",
+        "left rectus capitis posterior major",
+        "left rectus capitis posterior minor"
+      ],
+      "right": [
+        "right rectus capitis lateralis",
+        "right rectus capitis posterior major",
+        "right rectus capitis posterior minor"
+      ],
+      "center": []
+    },
+    "neck_deep_flexor": {
+      "left": [
+        "inferior oblique part of left longus colli",
+        "left longissimus capitis",
+        "left longus capitis",
+        "left semispinalis capitis",
+        "left semispinalis cervicis",
+        "left splenius capitis",
+        "left splenius cervicis",
+        "superior oblique part of left longus colli",
+        "vertical intermediate part of left longus colli"
+      ],
+      "right": [
+        "right longissimus capitis",
+        "right longus capitis",
+        "right semispinalis capitis",
+        "right semispinalis cervicis",
+        "right splenius capitis",
+        "right splenius cervicis"
+      ],
+      "center": []
+    },
+    "foot_tibialis_post": {
+      "left": [
+        "left tibialis posterior"
+      ],
+      "right": [
+        "right tibialis posterior"
+      ],
+      "center": []
+    },
+    "foot_intrinsic": {
+      "left": [
+        "first lumbrical of left foot",
+        "fourth lumbrical of left foot",
+        "lateral head of left flexor hallucis brevis",
+        "left abductor hallucis",
+        "left flexor digitorum brevis",
+        "left flexor hallucis longus",
+        "medial head of left flexor hallucis brevis",
+        "second lumbrical of left foot",
+        "set of dorsal interossei of left hand",
+        "set of lumbricals of left hand",
+        "set of palmar interossei of left hand",
+        "third lumbrical of left foot"
+      ],
+      "right": [
+        "first lumbrical of right foot",
+        "fourth lumbrical of right foot",
+        "lateral head of right flexor hallucis brevis",
+        "medial head of right flexor hallucis brevis",
+        "right abductor hallucis",
+        "right flexor digitorum brevis",
+        "right flexor hallucis longus",
+        "second lumbrical of right foot",
+        "set of dorsal interossei of right hand",
+        "set of lumbricals of right hand",
+        "set of palmar interossei of right hand",
+        "third lumbrical of right foot"
+      ],
+      "center": []
+    },
+    "tendon": {
+      "left": [
+        "interosseous membrane of left forearm",
+        "interosseous membrane of left leg",
+        "left anterior layer of thoracolumbar fascia",
+        "left calcaneal tendon",
+        "left long plantar ligament",
+        "left middle layer of thoracolumbar fascia",
+        "left posterior layer of thoracolumbar fascia"
+      ],
+      "right": [
+        "interosseous membrane of right forearm",
+        "interosseous membrane of right leg",
+        "right anterior layer of thoracolumbar fascia",
+        "right calcaneal tendon",
+        "right intermediate tendon",
+        "right long plantar ligament",
+        "right middle layer of thoracolumbar fascia",
+        "right posterior layer of thoracolumbar fascia",
+        "tendon of right levator palpebrae superioris"
+      ],
+      "center": [
+        "median cricothyroid ligament"
+      ]
+    },
+    "other": {
+      "left": [
+        "abductor digiti minimi of left foot",
+        "abductor digiti minimi of left hand",
+        "first plantar interosseous of left foot",
+        "flexor digiti minimi brevis of left foot",
+        "flexor digiti minimi brevis of left hand",
+        "flexor retinaculum of left wrist",
+        "left abductor pollicis brevis",
+        "left arytenoid cartilage",
+        "left coccygeus",
+        "left coccygeus (2)",
+        "left corrugator supercilii",
+        "left deep part of masseter",
+        "left depressor anguli oris",
+        "left depressor labii inferioris",
+        "left digastric",
+        "left digastric (2)",
+        "left digastric (3)",
+        "left extensor digiti minimi",
+        "left extensor hallucis brevis",
+        "left extensor hallucis longus",
+        "left extensor indicis",
+        "left flexor accessorius",
+        "left flexor digitorum longus",
+        "left flexor pollicis brevis",
+        "left frontalis",
+        "left geniohyoid",
+        "left iliococcygeus",
+        "left iliococcygeus (2)",
+        "left inferior head of lateral pterygoid",
+        "left inferior oblique",
+        "left inferior rectus",
+        "left lateral crico-arytenoid",
+        "left lateral rectus",
+        "left levator labii superioris",
+        "left levator palpebrae superioris",
+        "left levator veli palatini",
+        "left medial pterygoid",
+        "left medial rectus",
+        "left mentalis",
+        "left mylohyoid",
+        "left nasalis",
+        "left oblique arytenoid",
+        "left omohyoid",
+        "left opponens pollicis",
+        "left orbicularis oris",
+        "left orbital part of orbicularis oculi",
+        "left palpebral part of orbicularis oculi",
+        "left plantaris",
+        "left platysma",
+        "left popliteus",
+        "left posterior crico-arytenoid",
+        "left procerus",
+        "left pubococcygeus",
+        "left pubococcygeus (2)",
+        "left puborectalis",
+        "left puborectalis (2)",
+        "left rectus capitis anterior",
+        "left risorius",
+        "left sartorius",
+        "left scalenus anterior",
+        "left scalenus medius",
+        "left scalenus posterior",
+        "left serratus posterior inferior",
+        "left serratus posterior superior",
+        "left sternohyoid",
+        "left sternothyroid",
+        "left stylohyoid",
+        "left superficial part of masseter",
+        "left superior head of lateral pterygoid",
+        "left superior oblique",
+        "left superior rectus",
+        "left temporalis",
+        "left tensor veli palatini",
+        "left thyro-arytenoid",
+        "left thyro-arytenoid (2)",
+        "left thyrohyoid",
+        "left transversus thoracis",
+        "left zygomaticus major",
+        "left zygomaticus minor",
+        "oblique head of left adductor hallucis",
+        "oblique head of left adductor pollicis",
+        "oblique part of left cricothyroid",
+        "opponens digiti minimi of left foot",
+        "opponens digiti minimi of left hand",
+        "second plantar interosseous of left foot",
+        "set of left levatores costarum breves",
+        "set of left levatores costarum longi",
+        "straight part of left cricothyroid",
+        "superficial head of left flexor pollicis brevis",
+        "third plantar interosseous of left foot",
+        "transverse head of left adductor hallucis",
+        "transverse head of left adductor pollicis"
+      ],
+      "right": [
+        "abductor digiti minimi of right foot",
+        "abductor digiti minimi of right hand",
+        "first plantar interosseous of right foot",
+        "flexor digiti minimi brevis of right foot",
+        "flexor digiti minimi brevis of right hand",
+        "flexor retinaculum of right wrist",
+        "oblique head of right adductor hallucis",
+        "oblique head of right adductor pollicis",
+        "oblique part of right cricothyroid",
+        "opponens digiti minimi of right foot",
+        "opponens digiti minimi of right hand",
+        "right abductor pollicis brevis",
+        "right arytenoid cartilage",
+        "right coccygeus",
+        "right corrugator supercilii",
+        "right deep part of masseter",
+        "right depressor anguli oris",
+        "right depressor labii inferioris",
+        "right digastric",
+        "right digastric (2)",
+        "right extensor digiti minimi",
+        "right extensor hallucis brevis",
+        "right extensor hallucis longus",
+        "right extensor indicis",
+        "right flexor accessorius",
+        "right flexor digitorum longus",
+        "right flexor pollicis brevis",
+        "right frontalis",
+        "right geniohyoid",
+        "right iliococcygeus",
+        "right inferior head of lateral pterygoid",
+        "right inferior oblique",
+        "right inferior rectus",
+        "right lateral crico-arytenoid",
+        "right lateral rectus",
+        "right levator labii superioris",
+        "right levator palpebrae superioris",
+        "right levator veli palatini",
+        "right medial pterygoid",
+        "right medial rectus",
+        "right mentalis",
+        "right mylohyoid",
+        "right nasalis",
+        "right oblique arytenoid",
+        "right omohyoid",
+        "right opponens pollicis",
+        "right orbicularis oris",
+        "right orbital part of orbicularis oculi",
+        "right palpebral part of orbicularis oculi",
+        "right plantaris",
+        "right platysma",
+        "right popliteus",
+        "right posterior crico-arytenoid",
+        "right procerus",
+        "right pubococcygeus",
+        "right puborectalis",
+        "right rectus capitis anterior",
+        "right risorius",
+        "right sartorius",
+        "right scalenus anterior",
+        "right scalenus medius",
+        "right scalenus posterior",
+        "right serratus posterior inferior",
+        "right serratus posterior superior",
+        "right sternohyoid",
+        "right sternothyroid",
+        "right stylohyoid",
+        "right superficial part of masseter",
+        "right superior head of lateral pterygoid",
+        "right superior oblique",
+        "right superior rectus",
+        "right temporalis",
+        "right tensor veli palatini",
+        "right thyro-arytenoid",
+        "right thyro-arytenoid (2)",
+        "right thyrohyoid",
+        "right transversus thoracis",
+        "right zygomaticus major",
+        "right zygomaticus minor",
+        "second plantar interosseous of right foot",
+        "set of right levatores costarum breves",
+        "set of right levatores costarum longi",
+        "straight part of right cricothyroid",
+        "superficial head of right flexor pollicis brevis",
+        "third plantar interosseous of right foot",
+        "transverse head of right adductor hallucis",
+        "transverse head of right adductor pollicis"
+      ],
+      "center": [
+        "diaphragm",
+        "external anal sphincter",
+        "external anal sphincter (2)",
+        "external anal sphincter (3)",
+        "external intercostal muscle",
+        "innermost intercostal muscle",
+        "internal intercostal muscle",
+        "lateral lumbar intertransversarius",
+        "medial lumbar intertransversarius",
+        "tendinous arch of levator ani",
+        "tendinous arch of levator ani (2)",
+        "tendinous arch of levator ani (3)",
+        "transverse arytenoid"
+      ]
+    }
+  },
+  "summary": [
+    {
+      "id": "chest_pec_major",
+      "cn": "胸大肌",
+      "region": "chest",
+      "hidden": false,
+      "left": 3,
+      "right": 3,
+      "center": 0,
+      "total": 6
+    },
+    {
+      "id": "chest_pec_minor",
+      "cn": "胸小肌",
+      "region": "chest",
+      "hidden": false,
+      "left": 2,
+      "right": 2,
+      "center": 0,
+      "total": 4
+    },
+    {
+      "id": "chest_serratus",
+      "cn": "前锯肌",
+      "region": "chest",
+      "hidden": false,
+      "left": 1,
+      "right": 1,
+      "center": 0,
+      "total": 2
+    },
+    {
+      "id": "shoulder_deltoid",
+      "cn": "三角肌",
+      "region": "shoulder",
+      "hidden": false,
+      "left": 3,
+      "right": 3,
+      "center": 0,
+      "total": 6
+    },
+    {
+      "id": "shoulder_rotator_cuff",
+      "cn": "肩袖肌群",
+      "region": "shoulder",
+      "hidden": false,
+      "left": 5,
+      "right": 5,
+      "center": 0,
+      "total": 10
+    },
+    {
+      "id": "back_trapezius_upper",
+      "cn": "斜方肌上束",
+      "region": "back",
+      "hidden": false,
+      "left": 1,
+      "right": 1,
+      "center": 0,
+      "total": 2
+    },
+    {
+      "id": "back_trapezius_lower",
+      "cn": "斜方肌中下束",
+      "region": "back",
+      "hidden": false,
+      "left": 2,
+      "right": 2,
+      "center": 0,
+      "total": 4
+    },
+    {
+      "id": "back_lat",
+      "cn": "背阔肌",
+      "region": "back",
+      "hidden": false,
+      "left": 1,
+      "right": 1,
+      "center": 0,
+      "total": 2
+    },
+    {
+      "id": "back_rhomboid",
+      "cn": "菱形肌",
+      "region": "back",
+      "hidden": false,
+      "left": 2,
+      "right": 2,
+      "center": 0,
+      "total": 4
+    },
+    {
+      "id": "back_erector",
+      "cn": "竖脊肌",
+      "region": "back",
+      "hidden": false,
+      "left": 12,
+      "right": 12,
+      "center": 5,
+      "total": 29
+    },
+    {
+      "id": "back_ql",
+      "cn": "腰方肌",
+      "region": "back",
+      "hidden": false,
+      "left": 1,
+      "right": 1,
+      "center": 0,
+      "total": 2
+    },
+    {
+      "id": "arm_biceps",
+      "cn": "肱二头肌",
+      "region": "arm",
+      "hidden": false,
+      "left": 4,
+      "right": 4,
+      "center": 0,
+      "total": 8
+    },
+    {
+      "id": "arm_triceps",
+      "cn": "肱三头肌",
+      "region": "arm",
+      "hidden": false,
+      "left": 3,
+      "right": 3,
+      "center": 0,
+      "total": 6
+    },
+    {
+      "id": "arm_forearm_flexor",
+      "cn": "前臂屈肌群",
+      "region": "arm",
+      "hidden": false,
+      "left": 11,
+      "right": 11,
+      "center": 0,
+      "total": 22
+    },
+    {
+      "id": "arm_forearm_extensor",
+      "cn": "前臂伸肌群",
+      "region": "arm",
+      "hidden": false,
+      "left": 12,
+      "right": 12,
+      "center": 0,
+      "total": 24
+    },
+    {
+      "id": "core_rectus",
+      "cn": "腹直肌",
+      "region": "core",
+      "hidden": false,
+      "left": 1,
+      "right": 1,
+      "center": 0,
+      "total": 2
+    },
+    {
+      "id": "core_oblique",
+      "cn": "腹斜肌",
+      "region": "core",
+      "hidden": false,
+      "left": 2,
+      "right": 2,
+      "center": 0,
+      "total": 4
+    },
+    {
+      "id": "core_transverse",
+      "cn": "腹横肌",
+      "region": "core",
+      "hidden": false,
+      "left": 1,
+      "right": 1,
+      "center": 0,
+      "total": 2
+    },
+    {
+      "id": "hip_glute_max",
+      "cn": "臀大肌",
+      "region": "hip",
+      "hidden": false,
+      "left": 1,
+      "right": 1,
+      "center": 0,
+      "total": 2
+    },
+    {
+      "id": "hip_glute_med",
+      "cn": "臀中肌",
+      "region": "hip",
+      "hidden": false,
+      "left": 8,
+      "right": 8,
+      "center": 0,
+      "total": 16
+    },
+    {
+      "id": "hip_iliopsoas",
+      "cn": "髂腰肌",
+      "region": "hip",
+      "hidden": false,
+      "left": 2,
+      "right": 2,
+      "center": 0,
+      "total": 4
+    },
+    {
+      "id": "hip_tfl_itb",
+      "cn": "阔筋膜张肌/髂胫束",
+      "region": "hip",
+      "hidden": false,
+      "left": 2,
+      "right": 2,
+      "center": 0,
+      "total": 4
+    },
+    {
+      "id": "thigh_quads",
+      "cn": "股四头肌",
+      "region": "thigh",
+      "hidden": false,
+      "left": 4,
+      "right": 4,
+      "center": 0,
+      "total": 8
+    },
+    {
+      "id": "thigh_hamstrings",
+      "cn": "腘绳肌",
+      "region": "thigh",
+      "hidden": false,
+      "left": 4,
+      "right": 4,
+      "center": 0,
+      "total": 8
+    },
+    {
+      "id": "thigh_adductor",
+      "cn": "内收肌群",
+      "region": "thigh",
+      "hidden": false,
+      "left": 6,
+      "right": 6,
+      "center": 0,
+      "total": 12
+    },
+    {
+      "id": "calf_gastroc",
+      "cn": "腓肠肌",
+      "region": "calf",
+      "hidden": false,
+      "left": 2,
+      "right": 2,
+      "center": 0,
+      "total": 4
+    },
+    {
+      "id": "calf_soleus",
+      "cn": "比目鱼肌",
+      "region": "calf",
+      "hidden": false,
+      "left": 1,
+      "right": 1,
+      "center": 0,
+      "total": 2
+    },
+    {
+      "id": "calf_tibialis_ant",
+      "cn": "胫骨前肌",
+      "region": "calf",
+      "hidden": false,
+      "left": 1,
+      "right": 1,
+      "center": 0,
+      "total": 2
+    },
+    {
+      "id": "calf_peroneal",
+      "cn": "腓骨肌群",
+      "region": "calf",
+      "hidden": false,
+      "left": 3,
+      "right": 3,
+      "center": 0,
+      "total": 6
+    },
+    {
+      "id": "neck_scm",
+      "cn": "胸锁乳突肌",
+      "region": "neck",
+      "hidden": false,
+      "left": 1,
+      "right": 1,
+      "center": 0,
+      "total": 2
+    },
+    {
+      "id": "neck_levator",
+      "cn": "肩胛提肌",
+      "region": "neck",
+      "hidden": false,
+      "left": 1,
+      "right": 1,
+      "center": 0,
+      "total": 2
+    },
+    {
+      "id": "neck_suboccipital",
+      "cn": "枕下肌群",
+      "region": "neck",
+      "hidden": false,
+      "left": 3,
+      "right": 3,
+      "center": 0,
+      "total": 6
+    },
+    {
+      "id": "neck_deep_flexor",
+      "cn": "颈深屈肌",
+      "region": "neck",
+      "hidden": false,
+      "left": 9,
+      "right": 6,
+      "center": 0,
+      "total": 15
+    },
+    {
+      "id": "foot_tibialis_post",
+      "cn": "胫骨后肌",
+      "region": "foot",
+      "hidden": false,
+      "left": 1,
+      "right": 1,
+      "center": 0,
+      "total": 2
+    },
+    {
+      "id": "foot_intrinsic",
+      "cn": "足内在肌",
+      "region": "foot",
+      "hidden": false,
+      "left": 12,
+      "right": 12,
+      "center": 0,
+      "total": 24
+    },
+    {
+      "id": "tendon",
+      "cn": "肌腱/腱膜",
+      "region": "other",
+      "hidden": true,
+      "left": 7,
+      "right": 9,
+      "center": 1,
+      "total": 17
+    },
+    {
+      "id": "other",
+      "cn": "其他（手足头面深层小肌）",
+      "region": "other",
+      "hidden": true,
+      "left": 92,
+      "right": 87,
+      "center": 13,
+      "total": 192
+    }
+  ]
+}

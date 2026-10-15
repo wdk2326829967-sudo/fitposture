@@ -1,0 +1,32 @@
+import { chromium } from 'playwright-core';
+const b = await chromium.launch({ executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe', args:['--use-gl=angle','--use-angle=swiftshader','--enable-unsafe-swiftshader'] });
+const p = await b.newPage({ viewport:{width:1440,height:1080} });
+p.on('pageerror', e=>console.log('[err]',e.message));
+await p.goto('http://localhost:5173/',{waitUntil:'domcontentloaded'});
+await p.waitForTimeout(7000);
+await p.getByRole('button',{name:'三角肌',exact:true}).click();
+await p.waitForTimeout(400);
+await p.getByRole('button',{name:/后束/}).first().click();
+await p.waitForTimeout(900);
+const sel = async () => {
+  const btn = p.locator('button.bg-teal-500').filter({hasText:/想练大|酸痛|紧张|活动度|体态|拉伤/});
+  const n = await btn.count();
+  const out=[];
+  for (let i=0;i<n;i++) out.push((await btn.nth(i).textContent()).trim());
+  return out;
+};
+const groups = async () => {
+  const g = p.locator('div.text-xs.font-semibold').filter({hasText:/先做|再做|其他/});
+  const n = await g.count(); const out=[];
+  for (let i=0;i<n;i++) out.push((await g.nth(i).textContent()).trim());
+  return out;
+};
+await p.getByRole('button',{name:'想练大'}).click();
+await p.waitForTimeout(600);
+console.log('选中[想练大] →', await sel(), '| 分组:', await groups());
+await p.screenshot({path:'E:/work空间/fitposture/.verification/L1-part-hypertrophy.png'});
+await p.getByRole('button',{name:/酸痛/}).click();
+await p.waitForTimeout(700);
+console.log('选中[酸痛]   →', await sel(), '| 分组:', await groups());
+await p.screenshot({path:'E:/work空间/fitposture/.verification/L2-part-soreness.png'});
+await b.close();
